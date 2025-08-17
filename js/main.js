@@ -1,6 +1,6 @@
 const data = [
      {
-          img: "/images/image-daniel.jpg",
+          img: "images/image-daniel.jpg",
           name: 'Daniel Clifford',
           standing: 'Verified Graduate',
           title: "I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny's worth",
