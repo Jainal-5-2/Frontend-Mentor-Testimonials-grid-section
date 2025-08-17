@@ -1,0 +1,187 @@
+* {
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+     background-color: hsl(0, 0%, 81%);
+     font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.main-container {
+     font-size: 13px;
+}
+
+.testimonial-container {
+     margin: 25px;
+     padding: 30px;
+     border-radius: 15px;
+     color: white;
+}
+
+.img-main-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-bottom: 15px;
+}
+
+.name-container {
+     margin-left: 20px;
+}
+
+.name-container .name {
+     font-size: 1.3em;
+}
+
+#Daniel-testimonial {
+     margin-top: 100px;
+}
+
+.img-container {
+     height: 50px;
+     display: flex;
+     align-items: center;
+}
+
+.img-container img {
+     border-radius: 60%;
+     border: 2px solid;
+     height: 90%;
+}
+
+.testimonial-container .title {
+     margin-bottom: 25px;
+     position: relative;
+     z-index: 1;
+}
+
+#Daniel-testimonial {
+     background-color: hsl(263, 55%, 52%);
+     position: relative;
+}
+
+#Daniel-testimonial .img-container img {
+     border: 2px solid hsl(264, 82%, 80%);
+}
+
+#Jonathan-testimonial {
+     background-color: hsl(217, 19%, 35%);
+}
+
+#Jonathan-testimonial .img-container img {
+     border: 2px solid hsl(224, 10%, 45%);
+}
+
+#Jeanette-testimonial {
+     background-color: white;
+     color: black;
+}
+
+#Jeanette-testimonial .img-container img {
+     border: 2px solid hsl(214, 17%, 92%);
+}
+
+#Patrick-testimonial {
+     background-color: hsl(219, 29%, 14%);
+}
+
+#Patrick-testimonial .img-container img {
+     border: 2px solid hsl(263, 55%, 52%);
+}
+
+#Kira-testimonial {
+     background-color: white;
+     color: black;
+}
+
+#Kira-testimonial .img-container img {
+     border: 2px solid hsl(0, 0%, 81%);
+}
+
+.quote{
+     display: none;
+}
+
+/*Phone landscape*/
+@media (min-width: 576px) {
+     .main-container {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .sub-containers {
+          width: 60%;
+     }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+     .first-container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+     }
+
+     .main-container {
+          display: flex;
+          width: 55%;
+          flex-direction: row;
+     }
+
+     .sub-container1 {
+          flex-basis: 80%;
+     }
+
+     .sub-container2 {
+          flex-basis: 25%;
+          height: 100%;
+     }
+
+     .top {
+          display: flex;
+     }
+
+     .bottom {
+          display: flex;
+     }
+
+     .top #Daniel-testimonial {
+          margin: 0;
+          height: 100%;
+     }
+
+     .top #Jonathan-testimonial {
+          margin: 0;
+          margin-left: 15px;
+     }
+
+     .bottom #Jeanette-testimonial {
+          margin: 0;
+          margin-top: 20px;
+     }
+
+     .bottom #Patrick-testimonial {
+          margin: 0;
+          margin-top: 20px;
+          margin-left: 20px;
+     }
+
+     .sub-container2 #Kira-testimonial {
+          margin-right: 0;
+     }
+
+     .quote {
+          position: absolute;
+          margin-right: 10%;
+          top: 0;
+          right: 0;
+          z-index: 0;
+          height: 125px;
+          /* display: none; */
+     }
+}
