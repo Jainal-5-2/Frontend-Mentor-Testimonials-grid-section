@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/frontend-mentor---testimonials-grid-section-solution-A3fwAXOgKV)
 - Live Site URL: [Live site](https://jainal-5-2.github.io/Frontend-Mentor-Testimonials-grid-section/)
 
 ## My process
@@ -76,7 +76,7 @@ Then make the main and sub container 1 a fles box. Then just adjust the width of
 
 ```
 
-I learned that it was not possible, at least i was not able to do it. What I ended doing was spliting the sub-container1 into top and bottom;
+I learned that it was not possible, at least I was not able to do it. What I ended up doing was spliting the sub-container1 into top and bottom;
 
 ```
 <div class='main-container>
