@@ -1,3 +1,6 @@
+/* TODO - Rewrite this to have a better responsiveness*/
+
+
 * {
      margin: 0;
      box-sizing: border-box;
@@ -31,7 +34,7 @@ body {
 }
 
 .name-container .name {
-     font-size: 1.3em;
+     font-size: 1em;
 }
 
 #Daniel-testimonial {
@@ -129,25 +132,36 @@ body {
 
      .main-container {
           display: flex;
-          width: 55%;
+          width: fit-content;
           flex-direction: row;
+          height: 80%;
+     }
+
+     .sub-containers{
+          height: 100%;
      }
 
      .sub-container1 {
-          flex-basis: 80%;
+          width: 60%;
      }
 
      .sub-container2 {
-          flex-basis: 25%;
+          width: 30%;
           height: 100%;
      }
 
      .top {
           display: flex;
+          height: 50%;
      }
 
      .bottom {
           display: flex;
+          height: 50%;
+     }
+
+     .testimonial-container{
+          overflow: auto;
      }
 
      .top #Daniel-testimonial {
@@ -173,6 +187,8 @@ body {
 
      .sub-container2 #Kira-testimonial {
           margin-right: 0;
+          margin-top: 0;
+          height: 100%;
      }
 
      .quote {
